@@ -6,4 +6,5 @@
 @import "base/_mixins";
 @import "base/_global";
 @import "modules/_sprite.css";
+@import "modules/_navbar.css";
 @import "../../../node_modules/@fortawesome/fontawesome-free/css/all.css";

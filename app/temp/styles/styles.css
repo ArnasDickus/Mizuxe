@@ -7791,6 +7791,8 @@ template {
 /* Add only global changes */
 body {
   font-family: 'Roboto', sans-serif;
+   
+
 
   font-size: 1em;
   line-height: 1.5;
@@ -7845,6 +7847,22 @@ Instead edit gulp/templates/sprite */
     width: 36.75px;
     height: 44px;
     background-position: 99.68932038834953% 0;
+  }
+.navbar{
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background-color: #fff;
+}
+.navbar--padding{
+
+  }
+.navbar__img{
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+.navbar__item{
+    font-size: 1.4rem;
+    padding-right: 1.4rem;
   }
 /*!
  * Font Awesome Free 5.3.1 by @fontawesome - https://fontawesome.com
