@@ -2,8 +2,8 @@
 /* Add only global changes */
 
 body {
-  font-family: 'Roboto', sans-serif;
-   
+
+       margin-top: 6.5625rem;
 
 
   font-size: $base_font_size;
