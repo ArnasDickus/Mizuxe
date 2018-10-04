@@ -20,7 +20,7 @@
 </head>
 <body>
 
-<nav class = "navbar navbar-expand-md navbar-light   py-4">
+<nav class = "navbar navbar-expand-md fixed-top navbar-light   py-4">
   <div class=" navbar--padding container">
     <a href="#home" class = "navbar-brand">
       <img class = "lazyload navbar__img" sizes = "800px" data-srcset="assets/images/mlogo.png" 800w, "assets/images/mlogo-hi-dpi.jpg" alt="Logo">
@@ -66,14 +66,82 @@
           </a>
         </div>
         <div class="col-lg-6">
-          <img src="assets/images/book.png" alt="book">
-
+          <img class = "img-fluid d-none d-lg-block" src="assets/images/book.png" alt="book">
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- Newsletter -->
+  <section id = "newsletter" class = "newsletter bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <input type = "text" class = "form-control form-control-lg newsletter--mb-resp" placeholder="Enter Name">
+        </div>
+        <div class="col-md-4">
+          <input type = "email" class = "form-control form-control-lg newsletter--mb-resp" placeholder="Enter Email">
+        </div>
+        <div class="col-md-4">
+          <button class = "custom--bg-color btn btn-primary btn-lg btn-block" >
+             Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOXES -->
+  <section class = "py-5" id = "boxes">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card text-center custom--border-color boxes--mb-resp">
+            <div class="card-body">
+              <h3 class = "custom--text-color">Be Better</h3>
+              <p class = "text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center custom--bg-color text-white boxes--mb-resp">
+            <div class="card-body">
+              <h3>Be Smarter</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center custom--border-color boxes--mb-resp">
+            <div class="card-body">
+              <h3 class = "custom--text-color">Be Better</h3>
+              <p class = "text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center custom--bg-color text-white ">
+            <div class="card-body">
+              <h3 >Be Stronger</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- build:js assets/scripts/App.js -->
   <script src="/temp/scripts/App.js"></script>

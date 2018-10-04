@@ -31,3 +31,9 @@
     @mixin-content;
   }
 }
+/* 768px */
+@define-mixin custom{
+  @media (max-width: 48rem ){
+    @mixin-content;
+  }
+}

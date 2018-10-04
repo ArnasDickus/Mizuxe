@@ -1,0 +1,14 @@
+/* This file is for custom bootstrap changes */
+
+.custom{
+
+  &--bg-color{
+    background-color: $primary;
+  }
+  &--text-color{
+    color: $primary;
+  }
+  &--border-color{
+    border: solid $primary 1px;
+  }
+}

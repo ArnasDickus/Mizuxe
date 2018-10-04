@@ -1,8 +1,15 @@
 .showcase{
     position: relative;
      background: url('./../../assets/images/mountains.jpg');
-     min-height: 600px;
+     min-height: 37.5rem;
 
+     @mixin custom{
+       min-height: 31.25rem;
+
+     h1{
+       font-size: 4rem;
+     }
+}
      &__primary-overlay{
        background: $primary_overlay;
        position: absolute;
@@ -13,6 +20,3 @@
      }
 
 }
-/* app\assets\images\mountains.jpg */
-/* app\temp\styles\styles.css */
-/* background: url('/assets/images/mountains.jpg'); */
