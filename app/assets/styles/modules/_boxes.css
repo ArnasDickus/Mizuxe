@@ -1,7 +1,7 @@
 .boxes{
 
   @mixin custom{
-    
+
     &--mb-resp{
       margin-bottom: 1rem;
     }

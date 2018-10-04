@@ -7905,10 +7905,15 @@ Instead edit gulp/templates/sprite */
     border: solid #3292a6 1px;
   }
 @media (max-width: 48rem ){
-    
+
     .boxes--mb-resp{
       margin-bottom: 1rem;
     }
+  }
+.about__info-header{
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
   }
 /*!
  * Font Awesome Free 5.3.1 by @fontawesome - https://fontawesome.com
