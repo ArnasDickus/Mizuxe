@@ -18,9 +18,9 @@
 <!-- Test-Comments -->
 
 </head>
-<body>
+<body id = "home" data-spy = "scroll" data-target = "#main-nav">
 
-<nav class = "navbar navbar-expand-md fixed-top navbar-light   py-4">
+<nav id = "main-nav" class = "navbar navbar-expand-md fixed-top navbar-light py-4">
   <div class=" navbar--padding container">
     <a href="#home" class = "navbar-brand">
       <img class = "lazyload navbar__img" sizes = "800px" data-srcset="assets/images/mlogo.png" 800w, "assets/images/mlogo-hi-dpi.jpg" alt="Logo">
@@ -41,7 +41,7 @@
             <a href="#authors" class = "nav-link">Meet The Authors</a>
         </li>
         <li class = " navbar__item nav-item">
-            <a href="#contacts" class = "nav-link">Contact</a>
+            <a href="#contact" class = "nav-link">Contact</a>
         </li>
       </ul>
     </div>
@@ -261,7 +261,7 @@
       <div class="col-lg-3 col-md-6">
         <div class="card authors--hover">
           <div class="card-body">
-            <img class = "img-fluid rounded-circle w-50 mb-3" src="assets/images/person1.jpg" alt="Person">
+            <img class = "lazyload img-fluid rounded-circle w-50 mb-3" data-src="assets/images/person1.jpg" alt="Person">
             <h3>Susan Williams</h3>
             <h5 class = "text-muted">
               Lead Writer
@@ -292,8 +292,8 @@
       <div class="col-lg-3 col-md-6">
         <div class="card authors--hover">
           <div class="card-body">
-            <img class = "img-fluid rounded-circle w-50 mb-3"
-            src="assets/images/person2.jpg" alt="Person">
+            <img class = "lazyload img-fluid rounded-circle w-50 mb-3"
+            data-src="assets/images/person2.jpg" alt="Person">
             <h3>Grace Smith</h3>
             <h5 class = "text-muted">
               Co-Writer
@@ -324,8 +324,8 @@
       <div class="col-lg-3 col-md-6">
         <div class="card authors--hover">
           <div class="card-body">
-            <img class = "img-fluid rounded-circle w-50 mb-3"
-            src="assets/images/person3.jpg" alt="Person">
+            <img class = "lazyload img-fluid rounded-circle w-50 mb-3"
+            data-src="assets/images/person3.jpg" alt="Person">
             <h3>John Doe</h3>
             <h5 class = "text-muted">
               Editor
@@ -356,8 +356,8 @@
       <div class="col-lg-3 col-md-6 ">
         <div class="card authors--hover ">
           <div class="card-body">
-            <img class = "img-fluid rounded-circle w-50 mb-3"
-            src="assets/images/person4.jpg" alt="Person">
+            <img class = " lazyload img-fluid rounded-circle w-50 mb-3"
+            data-src="assets/images/person4.jpg" alt="Person">
             <h3>Kevin Swanson</h3>
             <h5 class = "text-muted">
               Designer
@@ -388,6 +388,65 @@
     </div>
   </div>
 </section>
+
+<!-- Contact -->
+<section id = "contact" class = "bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <h3>Get In Touch</h3>
+        <p class = "lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        Lorem ipsum</p>
+        <form>
+          <div class="input-group input-group-lg mb-3">
+            <div class="input-group-prepend">
+              <span class = "input-group-text">
+                <i class = "fas fa-user"></i>
+              </span>
+            </div>
+            <input type="text" class = "form-control" placeholder="Name">
+          </div>
+
+          <div class="input-group input-group-lg mb-3">
+            <div class="input-group-prepend">
+              <span class = "input-group-text">
+                <i class = "fas fa-envelope"></i>
+              </span>
+            </div>
+            <input type="text" class = "form-control" placeholder="Email">
+          </div>
+
+          <div class="input-group input-group-lg mb-3">
+            <div class="input-group-prepend">
+              <span class = "input-group-text">
+                <i class = "fas fa-pencil-alt"></i>
+              </span>
+            </div>
+            <textarea type="text" class = "form-control" rows = "5" placeholder="Message"></textarea>
+          </div>
+
+          <input type="submit"  value="Submit" class = "btn text-white btn-primary custom--text-color btn-block btn-lg">
+        </form>
+      </div>
+      <div class="col-lg-3 align-self-center">
+        <img class = "img-fluid" src="assets/images/mlogo.png" alt="Logo">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id = "main-footer" class = "py-5 bg-primary text-white">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-6 ml-auto">
+        <p class = "lead">
+          Copyright &copy; <span id = "year"></span>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
 
   <!-- build:js assets/scripts/App.js -->
   <script src="/temp/scripts/App.js"></script>
