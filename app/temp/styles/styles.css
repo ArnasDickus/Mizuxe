@@ -7915,6 +7915,16 @@ Instead edit gulp/templates/sprite */
     margin: auto;
     border-bottom: 1px #ddd solid;
   }
+.authors img{
+    margin-top: -50px;
+  }
+.authors--hover:hover{
+    background: #3292a6;
+    color: #fff;
+  }
+.authors__icon{
+    color: #fff;
+  }
 /*!
  * Font Awesome Free 5.3.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
