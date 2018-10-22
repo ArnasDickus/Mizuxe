@@ -2,7 +2,7 @@
 
 Mizure is a 2nd project. From Udemy tutorial Bootstrap 4 From Scratch With 5 Projects by Brad Traversty. Is not exactly a code along because I used my own template instead of his. Used BEM css filing system, and attempted to write modern jquerry and javascript code. Mostly failling.
 
-Live Version will be available as soon as a project is finished
+Live Version [Here](https://arnasdickus.github.io/Mizuxe/)
 
 
 ## Getting Started
